@@ -1,0 +1,5 @@
+#!/usr/bin/python
+
+file = open('/home/frutkic/cronjobs/output.txt', 'a')
+file.write('I am here!\n')
+file.close()
